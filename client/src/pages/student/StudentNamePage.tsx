@@ -56,7 +56,7 @@ const StudentNamePage: React.FC = () => {
                         id="studentName"
                         type="text"
                         className="input-field input-field--flat"
-                        placeholder="Rahul Bajaj"
+                        placeholder="Shubham Makkar"
                         value={nameInput}
                         onChange={(e) => setNameInput(e.target.value)}
                         onKeyDown={handleKeyDown}
